@@ -1,0 +1,13 @@
+CREATE DATABASE kipk;
+
+USE kipk;
+
+CREATE TABLE penerima (
+id INT(11) AUTO_INCREMENT,
+nim VARCHAR(25) UNIQUE,
+nama VARCHAR(100),
+no_kipk VARCHAR(25) UNIQUE,
+fakultas VARCHAR(25),
+prodi VARCHAR(100),
+angkatan VARCHAR(25)
+);
